@@ -28,7 +28,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "mc-server-setup=mc-server-setup.setupserver:main",
+            "mc-server-setup=mcsetupserver:main",
         ]
     },
 )
