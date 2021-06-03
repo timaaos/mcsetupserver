@@ -28,7 +28,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "minecraft-ez-server=minecraft-es-server:main",
+            "mc_ez_server=minecraft-ez-server:serversetup",
         ]
     },
 )
