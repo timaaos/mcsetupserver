@@ -19,7 +19,7 @@ setup(
     author_email="whybrawlmail@gmail.com",
     license="MIT License",
     classifiers=[
-        "License :: MIT License",
+        "License :: OSI Approved",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
     ],
