@@ -6,7 +6,6 @@ eula_txt = "#By changing the setting below to TRUE you are indicating your agree
 command_to_start = "java -jar server.jar"
 conf_softtype = "none"
 conf_ver = "none"
-
 def startSetup():
     if os.path.exists(os.path.abspath(os.getcwd()) + '\\SERVER\\'):
         shutil.rmtree(os.path.abspath(os.getcwd()) + '\\SERVER\\')
@@ -64,6 +63,8 @@ def startSetup():
             open(os.path.abspath(os.getcwd()) + '\\SERVER\\eula.txt', 'wb').write(bytes(eula_txt, 'utf8'))
             open(os.path.abspath(os.getcwd()) + '\\SERVER\\start.sh', 'wb').write(bytes(command_to_start, 'utf8'))
             open(os.path.abspath(os.getcwd()) + '\\SERVER\\start.bat', 'wb').write(bytes(command_to_start, 'utf8'))
+    for i in range(25):
+        print("GO TO: " + os.path.abspath(os.getcwd()) + '\\SERVER\\' + ' AND COLLECT FILES')
     exit(0)
 def draw_menu(stdscr):
     k = 0
