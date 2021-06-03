@@ -26,9 +26,5 @@ setup(
     packages=["minecraft-ez-server"],
     include_package_data=True,
     install_requires=[],
-    entry_points={
-        "console_scripts": [
-            "minecraft-ez-server=minecraft-es-server:main",
-        ]
-    },
+    entry_points={},
 )
