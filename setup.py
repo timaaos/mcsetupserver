@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="mc-server-setup",
+    name="minecraft-ez-server",
     version="1.0.0",
     description="Setup minecraft servers with easy!",
     long_description=README,
@@ -23,12 +23,12 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
     ],
-    packages=["mcserversetup"],
+    packages=["minecraft-ez-server"],
     include_package_data=True,
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "mc-server-setup=mcsetupserver:main",
+            "minecraft-ez-server=minecraft-es-server:main",
         ]
     },
 )
