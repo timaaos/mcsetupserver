@@ -17,9 +17,9 @@ setup(
     url="https://github.com/timaaos/mcserversetup",
     author="Timaaos",
     author_email="whybrawlmail@gmail.com",
-    license="No license",
+    license="MIT License",
     classifiers=[
-        "License :: No License",
+        "License :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
     ],
@@ -28,7 +28,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "mc_server_setup=reader.setupserver:main",
+            "mc-server-setup=mc-server-setup.setupserver:main",
         ]
     },
 )
